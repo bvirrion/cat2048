@@ -11,8 +11,8 @@ html, body {
   font-size: 18px; 
   
   //-webkit-animation: background-gradient-change linear 6s infinite alternate;
-  -moz-animation: background-gradient-change linear 6s infinite alternate;
-  -moz-animation: background-gradient-change linear 6s infinite alternate; }
+  //-moz-animation: background-gradient-change linear 6s infinite alternate;
+  //-moz-animation: background-gradient-change linear 6s infinite alternate; }
 
 body {
   margin: 0px 0 0 0; 
@@ -149,11 +149,7 @@ h1.title {
       66%  {background: #ffd;}
       100%   {background: #dff;}}      
       
-  a:hover {
-         -webkit-animation: hover-change linear 0.1s infinite;
-         -moz-animation: hover-change linear 0.1s infinite;
-         animation: hover-change linear 0.1s infinite;
-       }      
+    
 
 .scores-container {
   float: right;
@@ -583,7 +579,7 @@ background-color: pink;
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
 
-    background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/212/doge-derp-212.gif');
+    background: #f0f url('../img/212/nyan_cat_212x212.png');
     background-size: cover;    
     font-size: 30px; }
     @media screen and (max-width: 480px) {
@@ -700,6 +696,7 @@ background-color: pink;
 .game-explanation, .shout-out {
   margin-top: 0px;
   text-align: center;
+  color: #f0f;
   font-size: 14px;}
 
 
@@ -709,8 +706,8 @@ background-color: pink;
     font-size: 15px; }
 
   body {
-    margin: 20px 0;
-    padding: 0 20px; }
+    //margin: 20px 0;
+    padding: 10px 20px; }
 
   h1.title {
     font-size: 25px;
@@ -890,33 +887,33 @@ background-color: pink;
     transform: translate(202px, 202px); }
 
     .tile.tile-2 .tile-inner {
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-wink-114.gif');
+      background: #f0f url('../img/114/cat_2_114x114.gif');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
     
     .tile.tile-4 .tile-inner {
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-shake-space-114.gif');
+      background: #f0f url('../img/114/cat_4_114x114.gif');
       background-size: cover;    
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
     
     .tile.tile-8 .tile-inner {
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-peepers-114.gif');
+      background: #f0f url('../img/114/cat_8_114x114.gif');
       background-size: cover;}
     
     .tile.tile-16 .tile-inner {
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-prizza-114.gif');
+      background: #f0f url('../img/114/cat_16_114x114.gif');
       background-size: cover;}
     
     .tile.tile-32 .tile-inner {
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-hat-114.gif');
+      background: #f0f url('../img/114/cat_32_114x114.gif');
       background-size: cover;}
     
     .tile.tile-64 .tile-inner {
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-gradient-114.gif');
+      background: #f0f url('../img/114/cat_64_114x114.gif');
       background-size: cover;}
     
     .tile.tile-128 .tile-inner {
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-fat-114.gif');
+      background: #f0f url('../img/114/cat_128_114x114.gif');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
       font-size: 45px; }
@@ -925,7 +922,7 @@ background-color: pink;
           font-size: 25px; } }
     .tile.tile-256 .tile-inner {
 
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-rainbow-114.gif');
+      background: #f0f url('../img/114/cat_256_114x114.gif');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
       font-size: 45px; }
@@ -934,7 +931,7 @@ background-color: pink;
           font-size: 25px; } }
     .tile.tile-512 .tile-inner {
 
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-sunglasses-114.gif');
+      background: #f0f url('../img/114/cat_512_114x114.gif');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
       font-size: 45px; }
@@ -942,7 +939,7 @@ background-color: pink;
         .tile.tile-512 .tile-inner {
           font-size: 25px; } }
     .tile.tile-1024 .tile-inner {
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-derp-114.gif');
+      background: #f0f url('../img/114/cat_1024_114x114.gif');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
       font-size: 35px; }
@@ -951,7 +948,7 @@ background-color: pink;
           font-size: 15px; } }
     .tile.tile-2048 .tile-inner {
 
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-shake-114.gif');
+      background: #f0f url('../img/114/cat_2048_114x114.gif');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
       font-size: 35px; }
@@ -960,7 +957,7 @@ background-color: pink;
           font-size: 15px; } }
     .tile.tile-super .tile-inner {
 
-      background: #f0f url('http://d1e3ezyatlol8u.cloudfront.net/img/114/doge-derp-114.gif');
+      background: #f0f url('../img/114/nya_cat_114x114.png');
       background-size: cover;    
       font-size: 30px; }
       @media screen and (max-width: 480px) {
@@ -968,12 +965,11 @@ background-color: pink;
           font-size: 10px; } }
 
 
-    .footer{
-      width:188px;}
+    .footer{}
 
     #twitter-widget-0 {
       position: relative;
-      top:5px;
+      top:0px;
     }
     
     .COINWIDGETCOM_CONTAINER {
@@ -1003,4 +999,11 @@ background-color: pink;
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
-    
+ a:hover {
+         color: black;
+}
+
+.game-end-fb-share-container {
+    display: block;
+    padding: 10px 0px;
+}
